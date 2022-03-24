@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  background-color: #D2B48C;
+}
+
+.calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 240px;
+  height: 400px;
+  background-color: #131313;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+  color: #fff;
+  font-size: 35px;
+  padding: 20px 10px;
+  width: 100%;
+  text-align: right;
+  min-height: 70px;
+  position: relative;
+  max-with: 240px;
+}
+
+.display small {
+  color: #EE9406;
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.nums-container {
+  width: 75%;
+}
+
+.ops-container {
+  width: 25%;
+}
+
+button {
+  border: none;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opactiy: 0.19;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.orange {
+  background-color: #EE9406;
+  color: #fff;
+}
+
+button.light-gray {
+  background-color: #BEBEBE;
+}
+
+button.dark-gray {
+  background-color: #323232;
+  color: #fff;
+}
+
+button.big-v {
+  height: 110px;
+  border-radius: 50px;
+}
+
+button.big-h {
+  width: 110px;
+  border-radius: 50px;
+}
+
+button.AC {
+  margin-right: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
